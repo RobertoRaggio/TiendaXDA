@@ -32,12 +32,12 @@
     font-size: 20px;
     display: inline-block;
 }
-@media screen and (min-width: 767.98px) and (max-width: 991.98px) {
+@media screen and (min-width: 828px) and (max-width: 991.98px) {
     .texto1 {
         width: 50%;
     }
   }
-  @media screen and (min-width: 0px) and (max-width:767.98px) {
+  @media screen and (min-width: 0px) and (max-width:828px) {
     .texto1 {
         width: 100%;
     }
@@ -66,7 +66,7 @@
 }
 @media (max-width:991.98px) and (min-width: 767.98px) {
     .imagen1 {
-        display: none;
+        display: ne;
     }
 
 }
