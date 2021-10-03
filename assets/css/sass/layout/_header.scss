@@ -28,7 +28,7 @@
     overflow: hidden;
     color: black;
   }
-  @media (max-width:500px) {
+  @media (max-width:575.98px) {
     .topnav a {
         display: none !important;
     }
@@ -48,12 +48,12 @@
     color: black;
   }
 
-  @media screen and (min-width: 500px) and (max-width: 1920px) {
+  @media screen and (min-width: 575.98px) and (max-width: 1920px) {
     .topnav .icon {
       display: none !important;
     }
   }
-  @media screen and (min-width: 0px) and (max-width: 500px) {
+  @media screen and (min-width: 0px) and (max-width: 575.98px) {
     .topnav .icon {
       display: block !important;
     }

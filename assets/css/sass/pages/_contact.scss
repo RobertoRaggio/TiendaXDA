@@ -3,16 +3,22 @@
     color: white;
     background-color: black;
     height: 192px;
-    width: 430px;
+    width: 400px;
     padding-top: 5px;
     padding-left: 75px;
     display: inline-block;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
     .container {
-        width: 70%;
+        width: 40%;
     }
   }
+  @media screen and (min-width: 767.98px) and (max-width: 991.98px) {
+    .container {
+        width: 60%;
+    }
+  }
+  
 .suscribir {
     writing-mode: vertical-rl;
     color: black;
