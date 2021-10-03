@@ -1,0 +1,60 @@
+.navbar-header {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.logo{
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Old Standard TT', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    color: black;
+  }
+  @media (max-width:500px) {
+    .topnav a {
+        display: none !important;
+    }
+}
+  .topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding:20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 1920px) {
+    .topnav .icon {
+      display: none !important;
+    }
+  }
+  @media screen and (min-width: 0px) and (max-width: 500px) {
+    .topnav .icon {
+      display: block !important;
+    }
+  }

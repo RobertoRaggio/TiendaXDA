@@ -1,0 +1,32 @@
+.btn {
+    border: 2px solid #a6a5a8;
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 14px 28px; 
+    margin-bottom: 50px;
+    margin-left: 75px;
+   }
+
+.default {
+   border: color #e7e7e7;
+   color:black;
+  }
+
+  .default:hover {
+    background: #e7e7e7
+   }
+
+   .correo {
+    padding:right;
+    margin-bottom: 3px;
+     }
+
+.btn-correo {
+   padding-left: 10px;
+   padding-right: 65px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border: 1px #a6a5a8
+}
