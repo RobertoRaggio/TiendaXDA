@@ -10,12 +10,12 @@
     display: inline-block;
     margin-bottom: 3px;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 828px) and (max-width: 768px) {
     .titulo {
         width: 50%;
     }
   }
-  @media screen and (min-width: 0px) and (max-width:480px) {
+  @media screen and (min-width: 0px) and (max-width:828px) {
     .titulo {
         width: 100%;
     }
